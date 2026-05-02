@@ -1,5 +1,6 @@
 from nicegui import ui
 import numpy as np
+import os
 import backend as bk
 from ui_components import (
     create_header, create_metric_card, create_physical_plot,
