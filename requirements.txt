@@ -3,3 +3,4 @@ nicegui
 plotly
 numpy
 uvicorn
+matplotlib
