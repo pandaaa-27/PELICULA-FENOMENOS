@@ -149,3 +149,11 @@ def index():
 
 if __name__ in {'__main__', '__mp_main__'}:
     ui.run(title="Simulador Fenómenos - 2B6", port=8081, reload=False, dark=True)
+import os
+
+# Al final de tu archivo
+ui.run(
+    host='0.0.0.0', 
+    port=int(os.environ.get('PORT', 8080)), 
+    reload=False
+)
