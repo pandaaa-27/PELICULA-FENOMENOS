@@ -211,7 +211,7 @@ def create_taylor_analysis_section(R: float, rho: float, mu: float):
                 ui.label(f'Al aplicar la expansión en Serie de Taylor cuando δ → 0, usando tus variables actuales (ρ={rho:.0f}, μ={mu:.2f} y R={R:.3f}):').classes('text-gray-400 mb-2 text-sm')
                 
                 with ui.card().classes('w-full bg-[#0f1117] border border-gray-700 p-4 mb-6'):
-                    ui.markdown(r"$$ \dot{m} = \frac{2\pi R \rho^2 g \delta^3}{3\mu} $$").classes('text-center text-xl text-teal-400 w-full')
+                    ui.markdown(r"$$ \dot{m} = \frac{2\pi R \rho^2 g \delta^3}{3\mu} $$", extras=['latex']).classes('text-center text-xl text-teal-400 w-full')
                 
                 ui.label('Impacto del Espesor de Película').classes('text-lg font-bold text-white mb-2')
                 
