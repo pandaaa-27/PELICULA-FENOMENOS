@@ -285,3 +285,4 @@ def create_taylor_analysis_section(R: float, rho: float, mu: float):
 
 def create_footer():
     ui.label('Nota: Modelo físico ideal asumiendo flujo laminar descendente en estado estacionario (Newtoniano).').classes('w-full text-center text-xs text-gray-500 mt-4 p-4')
+ui.run(host='0.0.0.0', port=10000, reload=False)
